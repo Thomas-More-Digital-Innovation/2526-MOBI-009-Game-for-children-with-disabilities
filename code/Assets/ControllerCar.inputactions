@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "ControllerCar",
+    "maps": [
+        {
+            "name": "Controller",
+            "id": "3ef0b9aa-0ba8-4146-8818-71b947274b22",
+            "actions": [
+                {
+                    "name": "Controller A",
+                    "type": "Button",
+                    "id": "e38a313c-c98a-42ef-9f45-f1aa79327ae2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c8c12a6a-ca8c-4ecb-bd8e-c195da45c345",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Controller A",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
